@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000000"
+    android:padding="20dp">
+
+    <!-- TITULO -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lion Store"
+        android:textColor="#FFD700"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- ICONO APP -->
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/storelion"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- NOMBRE APP -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lion Browser"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- DESCRIPCIÓN -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Navegador oficial de LionOS"
+        android:textColor="#AAAAAA"
+        android:textSize="16sp"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- BOTON INSTALAR -->
+
+    <Button
+        android:id="@+id/installButton"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:text="Instalar"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:backgroundTint="#FFD700"/>
+
+    <!-- BARRA PROGRESO -->
+
+    <ProgressBar
+        android:id="@+id/storeProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="260dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="30dp"
+        android:visibility="gone"/>
+
+    <!-- TEXTO DESCARGA -->
+
+    <TextView
+        android:id="@+id/downloadText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FFD700"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
